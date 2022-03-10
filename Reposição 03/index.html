@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+	<div id="principal">
+		<h1>Formulário</h1>
+			<div>
+				<form id="formulario">
+				<fieldset><br>
+						
+					<label for="name" id="name"><b>Nome:</b></label><br>
+					<input type="text" name="name"><br><br>
+					
+					
+					<label for="sexo" id="sexo"><b>Sexo:</b></label><br>
+					<form>
+						<input type="radio" name="sexos" value="op1"> Feminino
+						<input type="radio" name="sexos" value="op2"> Masculino
+					</form><br><br>
+				
+					<label for="idade"><b>Idade:</b></label><br>
+					<input type="text" name="idade"><br><br>
+					
+					<label for="cidade"><b>Cidade:</b></label><br>
+					<select name="cidade" id="cidade">
+						<option value="0" selected>Selecione a cidade</option>
+						<option value="1">Açailândia</option>
+						<option value="2">Bacabal</option>
+						<option value="3">Balsas</option>
+						<option value="4">Caxias</option>
+						<option value="5">Codó</option>
+						<option value="6">Grajaú</option>	
+						<option value="7">Pedreiras</option>
+					</select><br><br>
+					
+					<label for="lingua" id="lingua"><b>Linguagens de programação favoritas:</b></label>
+					<form>
+						<input type="checkbox" name="linguagem" value="op1"> Java
+						<input type="checkbox" name="linguagem" value="op2"> PHP
+						<input type="checkbox" name="linguagem" value="op3"> Python
+					</form>
+					<br><br>
+					<label for="msg"><b>Considerações:</b></label><br>
+					<textarea name="texto" id="texto" cols="30" rows="10"></textarea><br>	
+					
+				<br></fieldset><br>
+				<div id="botoes">
+						<input type="submit" id="enviar" value="Enviar">
+						<input type="reset" id="reset" value="Limpar">
+					</div>	
+				</form>	
+			</div>	
+	</div>
+</body>
+</html>
